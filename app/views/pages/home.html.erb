@@ -1,12 +1,12 @@
-<div class='jumbotron'>
+<div class='jumbotron center'>
 	<h1>Welcome to Apoorv's</h1>
 	<h1>Pinteresting Project</h1>
 	<% if user_signed_in? %>
 	 Welcome to the Members Area
 	<% else %>
 		<p>
-			<%= link_to "Login",new_user_session_path, class: "btn btn-primary btn-lg"%> 
-			<%= link_to "Signup",new_user_registration_path, class: "btn btn-primary btn-lg"%>
+			<%= link_to "Login",new_user_session_path, class: "btn btn-default btn-sm"%> 
+			<%= link_to "Signup",new_user_registration_path, class: "btn btn-primary btn-sm"%>
 		</p>
 	<% end %>	
 </div>
