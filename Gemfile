@@ -36,6 +36,9 @@ gem 'devise', '~> 3.2.4'
 #Paperclip for uploading images
 gem 'paperclip', '~> 3.0'
 
+#Heroku Image Upload Functionality for Paperclip
+gem 'aws-sdk'
+
 group :development, :test do
 gem 'sqlite3'
 end
