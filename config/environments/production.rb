@@ -70,7 +70,7 @@ Pinteresting::Application.configure do
   config.i18n.fallbacks = true
 
 
-  #To Enable Paperclip Functionality on Heroku
+  #Sets Paperclip to upload to Amazon S3
   #config.paperclip_defaults = {
   #:storage => :s3,
   #:s3_credentials => {
